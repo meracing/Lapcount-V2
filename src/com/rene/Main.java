@@ -1,7 +1,5 @@
 package com.rene;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.util.Scanner;
 
 public class Main {
@@ -16,10 +14,6 @@ public class Main {
         int[] sorted = sortLaptimes(lapTimes);
         printArray(sorted);
     }
-
-
-
-
 
     public static int[] getLaptimes(int lapnumber) {
         int[] array = new int[lapnumber];
@@ -55,11 +49,6 @@ public class Main {
             }
         }
         return sortedArray;
-
-
-
     }
-
-
 }
 
